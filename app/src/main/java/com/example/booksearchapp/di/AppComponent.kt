@@ -1,11 +1,11 @@
 package com.example.booksearchapp.di
 
-import com.example.booksearchapp.MainActivity
+import com.example.booksearchapp.newslist.BooksListActivity
 import dagger.Component
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = [AppModule::class, NetworkModule::class])
+@Component(modules = [AppModule::class, NetworkModule::class, NewsListModule::class])
 interface AppComponent {
-    fun inject(mainActivity: MainActivity)
+    fun inject(booksListActivity: BooksListActivity)
 }

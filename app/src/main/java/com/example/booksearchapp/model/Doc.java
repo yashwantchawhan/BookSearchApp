@@ -2,6 +2,7 @@
 package com.example.booksearchapp.model;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -103,6 +104,9 @@ public class Doc {
     @SerializedName("time")
     @Expose
     private List<Object> time = null;
+    @SerializedName("author_name")
+    @Expose
+    private List<Object> authorName = null;
 
     public String getTitleSuggest() {
         return titleSuggest;
@@ -358,6 +362,27 @@ public class Doc {
 
     public void setTime(List<Object> time) {
         this.time = time;
+    }
+
+    public String getAuthorName() {
+        if (authorName != null) {
+            return authorName.get(0).toString();
+        }
+        return "";
+    }
+
+    public void setAuthorName(List<Object> authorName) {
+        this.authorName = authorName;
+    }
+
+    public String getCoverUrl() {
+        if (coverEditionKey != null) {
+            return "http://covers.openlibrary.org/b/olid/" + coverEditionKey + "-L.jpg?default=false";
+        } else if (editionKey != null) {
+            return "http://covers.openlibrary.org/b/olid/" + editionKey.get(0) + "-L.jpg?default=false";
+        } else {
+            return "";
+        }
     }
 
 }

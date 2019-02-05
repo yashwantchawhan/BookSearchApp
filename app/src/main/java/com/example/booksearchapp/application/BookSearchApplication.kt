@@ -1,4 +1,4 @@
-package com.example.booksearchapp
+package com.example.booksearchapp.application
 
 import android.app.Application
 import com.example.booksearchapp.di.AppComponent
