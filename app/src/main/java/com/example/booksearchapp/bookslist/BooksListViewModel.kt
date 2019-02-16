@@ -1,4 +1,4 @@
-package com.example.booksearchapp.newslist
+package com.example.booksearchapp.bookslist
 
 import com.example.booksearchapp.model.BookDisplay
 import io.reactivex.Single

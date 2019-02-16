@@ -12,7 +12,7 @@
             android:supportsRtl="true"
             android:name=".application.BookSearchApplication"
             android:theme="@style/AppTheme">
-        <activity android:name=".newslist.BooksListActivity">
+        <activity android:name=".bookslist.BooksListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

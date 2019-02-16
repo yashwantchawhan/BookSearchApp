@@ -1,6 +1,6 @@
 package com.example.booksearchapp.di
 
-import com.example.booksearchapp.newslist.BooksListActivity
+import com.example.booksearchapp.bookslist.BooksListActivity
 import dagger.Component
 import javax.inject.Singleton
 

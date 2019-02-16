@@ -6,7 +6,7 @@
     <data>
         <variable
             name="booksListViewModel"
-            type="com.example.booksearchapp.newslist.BooksListViewModel"/>
+            type="com.example.booksearchapp.bookslist.BooksListViewModel"/>
     </data>
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -1,7 +1,7 @@
 package com.example.booksearchapp.di
 
 import com.example.booksearchapp.api.BookApi
-import com.example.booksearchapp.newslist.*
+import com.example.booksearchapp.bookslist.*
 import dagger.Module
 import dagger.Provides
 

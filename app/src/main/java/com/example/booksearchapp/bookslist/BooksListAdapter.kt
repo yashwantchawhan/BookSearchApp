@@ -1,4 +1,4 @@
-package com.example.booksearchapp.newslist
+package com.example.booksearchapp.bookslist
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
