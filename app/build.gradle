@@ -61,5 +61,4 @@ dependencies {
     androidTestImplementation "com.android.support.test.espresso.idling:idling-concurrent:3.0.2"
 
 
-
 }
